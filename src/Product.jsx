@@ -8,7 +8,10 @@ function Product({data}) {
     <div className={classs1}>
         <h3> {data.name} </h3>
         <img src={data.src} alt="image" />
-        <h3>Prize ${data.prize}</h3>
+        <h3>
+  Price ₹{data.prize.toLocaleString("en-IN")}
+</h3>
+
         <button className={classs} onClick={()=>{setValue("Booked");
            setclasss("addButton1");
            setclasss1("Product1");}}>

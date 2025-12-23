@@ -1,0 +1,40 @@
+.Product{
+    width: 300px;
+    background-color: lightgrey;
+    border: 3px solid silver;
+    border-radius: 20px;
+    text-align: center;
+    font-size: large;
+    transition: all 1s ease-in-out;
+
+}
+.Product img{
+    width: 250px;
+    height: 170px;
+    border-radius: 20px;
+     transition: all 1s ease-in-out;
+}
+.Product button{
+    color: silver;
+    width: 250px;
+    height: 40px;
+    background-color: rgb(12, 74, 135);
+    font-size: large;
+    border: 2px solid silver;
+    border-radius: 20px;
+    transition: all 1s ease-in-out;
+    
+}
+.Product button:hover{
+    background-color: blue;
+    transform: scale(1.1,1.1);
+}
+
+.Product img:hover{
+    transform: scale(1.2,1.3);
+}
+
+.Product:hover{
+    background-color: dodgerblue;
+    
+}

@@ -1,0 +1,11 @@
+.Top{
+    width: 100vw;
+    height: 15vh;
+    background-color: dodgerblue;
+    color: white;
+    font-size: 30px;
+    font-family: cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

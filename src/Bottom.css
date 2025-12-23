@@ -1,0 +1,11 @@
+.Bottom{
+    width: 100vw;
+    height: 10vh;
+    background-color: dodgerblue;
+    color: white;
+    font-size: 15px;
+    font-family: cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
